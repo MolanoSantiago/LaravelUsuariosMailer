@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 780px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titlebar_item, h1, button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: 1px solid rgb(49, 49, 49);
+    padding: 9px 15px;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(129, 129, 129);
+    color: rgb(49, 49, 49);
+}
+
+.list_header {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px 1fr 110px 110px;
+    color: rgb(49, 49, 49);
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 1.2rem;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.list_items {
+    padding: 10px 30px !important;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr 110px 110px;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    color: rgb(49, 49, 49);
+    background-color: #f1f1f1;
+}
+
+.btn_icon {
+    border: 1px solid #e0e0e0;
+    background: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.success:hover {
+    background: rgb(47, 214, 111);
+    color: white;
+}
+
+.danger:hover {
+    background: crimson;
+    color: white;
+}
+
+.card_wrapper {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 290px);
+    grid-gap: 20px;
+    color: rgb(49, 49, 49);
+    margin-top: 20px;
+}
+
+.card {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+}
+
+.card, label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card, input {
+    padding: 9px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
