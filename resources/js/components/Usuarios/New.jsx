@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const New = () => {
+const NewUser = () => {
 
     const navigate = useNavigate()
 
@@ -77,4 +77,4 @@ const New = () => {
   )
 }
 
-export default New
+export default NewUser

@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Index = () => {
+const IndexUser = () => {
   
   const navigate = useNavigate();
 
@@ -14,7 +14,7 @@ const Index = () => {
   
   useEffect(() => {
     getUsuarios()
-  })
+  },[] )
 
   const getUsuarios = async () => {
     await axios.get("/api/usuarios")
@@ -109,4 +109,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default IndexUser

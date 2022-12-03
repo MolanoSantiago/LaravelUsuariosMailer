@@ -1,12 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css');
 
 * {
     margin: 0;
     padding: 0;
 }
+
+/* NavBar */
+
+
+
+/* TABLAS */
 
 .container {
     max-width: 780px;

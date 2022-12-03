@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 
-const Edit = () => {
+const EditUser = () => {
 
     const navigate = useNavigate();
 
@@ -97,4 +97,4 @@ const Edit = () => {
   )
 }
 
-export default Edit
+export default EditUser
